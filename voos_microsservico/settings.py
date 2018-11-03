@@ -25,7 +25,7 @@ SECRET_KEY = 'vvz2ueydp4(3*5ejshtxs^z&st3!+bz2g7)=bd*@qf_adtq@g8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['voos-microsservico.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
