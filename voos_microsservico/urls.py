@@ -7,7 +7,7 @@ from voos import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('aeroportos/', views.AeroportoListar.as_view()),
+    path('aeroportos/', views.AeroportoView.as_view()),
     path('voos/', views.VooCriarListar.as_view()),
     path('voos/<int:pk>/', views.VooDetalheApagar.as_view())
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

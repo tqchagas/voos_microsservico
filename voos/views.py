@@ -3,7 +3,7 @@ from voos.serializers import AeroportoSerializer, VooSerializer
 from rest_framework import generics
 
 
-class AeroportoListar(generics.ListAPIView):
+class AeroportoView(generics.ListCreateAPIView):
     queryset = Aeroporto.objects.all()
     serializer_class = AeroportoSerializer
 
